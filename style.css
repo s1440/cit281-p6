@@ -1,0 +1,61 @@
+body {
+    background-color: #007030;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #fdd835;
+    text-align: center;
+}
+
+h3 {
+    color: #f2cb20;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input, button {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+
+input {
+    width: 200px;
+}
+
+button {
+    background-color: #fdd835;
+    color: #007030;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffe657;
+}
+
+#resourceList div {
+    background-color: white;
+    color: #007030;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 6px;
+    max-width: 500px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
